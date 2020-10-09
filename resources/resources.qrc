@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="combobox_arrow.png">combobox_arrow.png</file>
+        <file alias="radio_button_checked.png">radio_button_checked.png</file>
+        <file alias="radio_button_checked_hovered.png">radio_button_checked_hovered.png</file>
+        <file alias="radio_button_checked_pressed.png">radio_button_checked_pressed.png</file>
+        <file alias="radio_button_unchecked.png">radio_button_unchecked.png</file>
+        <file alias="radio_button_unchecked_hovered.png">radio_button_unchecked_hovered.png</file>
+        <file alias="radio_button_unchecked_pressed.png">radio_button_unchecked_pressed.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="SourceCodePro-Regular.ttf">source_code_pro_font/SourceCodePro-Regular.ttf</file>
+    </qresource>
+    <qresource prefix="/stylesheets">
+        <file alias="mainframe_dark.qss">mainframe_dark.qss</file>
+        <file alias="mainframe_light.qss">mainframe_light.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,101 @@
+QMainWindow{
+	background-color: #3c3f41;
+	font-family: Sergoe UI;
+}
+
+QLabel{
+	color: #FFFFFF;
+}
+
+QComboBox{
+	background-color: #222426;
+	border: 1px solid #5A5A5A;
+	border-radius: 2px;
+	color: #FFFFFF;
+}
+
+QComboBox:focus{
+	border: 1px solid #365880;
+}
+
+/*qlistview is a class of items using by qcombobox*/
+QComboBox QListView {
+	/*customizing list back and text color*/
+	background-color: #222426;
+	border: none;
+	color: white;
+	/*removes dotted border from an item*/
+	outline: none;
+}
+
+/*drop down is the rect area 
+includes down-arrow subctontrol and rectangle style around*/
+QComboBox::drop-down {
+/*any border dependencies
+removes arrow*/
+	border: none;
+}
+
+QCheckBox::indicator {
+    border: 1px solid #5A5A5A;
+}
+
+/*customizing qcombobox instance's arrow*/
+QComboBox::down-arrow {
+		image: url(:/icons/combobox_arrow.png);
+}
+
+/*customizing items lines*/
+QComboBox QListView::item {
+	height: 25px;
+}
+
+/*customizing selected item style*/
+QListView::item:selected { 
+	color: white;
+	background-color: #222426;
+	border: 1px solid #365880;
+}
+
+QLineEdit{
+	background-color: #222426;
+	color: #FFFFFF;
+	border: 1px solid #5A5A5A;
+	border-radius: 2px;
+	font-size: 8pt;
+	font-family: Sergoe UI;
+}
+
+QLineEdit:focus{
+	border: 1px solid #365880;
+}
+
+QPushButton#pushButton {
+    color: #FFFFFF;
+	background-color: #365880;
+	border: 1px solid #496d8a;
+	border-radius: 3px;
+	font-size: 9pt;
+	font-family: Sergoe UI;
+}
+
+QPushButton#pushButton:hover {
+	background-color: #45678e;
+}
+
+QPushButton#pushButton:pressed {
+	background-color: #5a86b9;
+}
+
+QTextEdit{
+	background-color:#222426;
+	border: 1px solid #5A5A5A;
+	border-radius: 2px;
+	font-family: "Source Code Pro";
+	font-size: 10pt;
+	color: white;
+}
+
+QTextEdit:focus{
+	border: 1px solid #365880;
+}
